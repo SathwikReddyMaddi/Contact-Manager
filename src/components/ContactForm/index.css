@@ -1,0 +1,134 @@
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 24, 45, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.contact-modal {
+  background: white;
+  width: 100%;
+  max-width: 480px;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+  max-height: 95vh;
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 28px;
+  gap: 15px;
+}
+
+.modal-header h2 {
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.modal-header p {
+  color: #9298aa;
+  font-size: 13px;
+}
+
+.close-modal {
+  border: none;
+  background: #f5f6fa;
+  color: #777e93;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.close-modal:hover {
+  background: #efedff;
+  color: #6558e8;
+}
+
+.form-group {
+  margin-bottom: 19px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid #e8eaf0;
+  padding: 12px 13px;
+  border-radius: 9px;
+  color: #9298aa;
+  transition: 0.2s;
+}
+
+.form-input:focus-within {
+  border-color: #6558e8;
+  box-shadow: 0 0 0 3px rgba(101, 88, 232, 0.1);
+}
+
+.form-input input,
+.form-input select {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 13px;
+  color: #20243a;
+  min-width: 0;
+}
+
+.form-input select {
+  cursor: pointer;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.cancel-button,
+.save-button {
+  padding: 12px 18px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.cancel-button {
+  background: white;
+  border: 1px solid #e8eaf0;
+  color: #777e93;
+}
+
+.save-button {
+  background: #6558e8;
+  border: none;
+  color: white;
+}
+
+.save-button:hover {
+  background: #5144d2;
+}
+
+@media (max-width: 480px) {
+  .contact-modal {
+    padding: 20px;
+  }
+}

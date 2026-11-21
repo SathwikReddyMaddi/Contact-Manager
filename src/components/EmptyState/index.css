@@ -1,0 +1,52 @@
+
+.empty-state {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.empty-state-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #efedff;
+  color: #6558e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.empty-state h3 {
+  color: #30354b;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.empty-state p {
+  color: #9298aa;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.empty-add-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #6558e8;
+  color: white;
+  border: none;
+  padding: 12px 17px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+
+.empty-add-button:hover {
+  background: #5144d2;
+}

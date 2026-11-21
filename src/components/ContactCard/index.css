@@ -1,0 +1,150 @@
+
+.contact-card {
+  background: white;
+  border: 1px solid #e8eaf0;
+  border-radius: 14px;
+  padding: 21px;
+  transition: 0.2s;
+  min-width: 0;
+}
+
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(35, 35, 70, 0.07);
+}
+
+.contact-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.contact-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contact-avatar.personal {
+  background: #efedff;
+  color: #6558e8;
+}
+
+.contact-avatar.business {
+  background: #fff1e5;
+  color: #ed9449;
+}
+
+.favorite-button {
+  background: #f8f8fb;
+  border: none;
+  color: #b3b7c5;
+  padding: 9px;
+  border-radius: 9px;
+  display: flex;
+  transition: 0.2s;
+}
+
+.favorite-button:hover {
+  color: #e6a23c;
+}
+
+.favorite-button.is-favorite {
+  background: #fff5df;
+  color: #e6a23c;
+}
+
+.contact-info h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #20243a;
+  overflow-wrap: anywhere;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+
+.category-badge.personal {
+  background: #e9f3ff;
+  color: #4285d4;
+}
+
+.category-badge.business {
+  background: #fff1e5;
+  color: #ed9449;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #858ca0;
+  font-size: 12px;
+  margin-bottom: 12px;
+  min-width: 0;
+}
+
+.contact-detail svg {
+  flex-shrink: 0;
+}
+
+.contact-detail span {
+  overflow-wrap: anywhere;
+}
+
+.contact-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f0f1f5;
+  margin-top: 15px;
+  padding-top: 13px;
+}
+
+.contact-id {
+  color: #a0a4b5;
+  font-size: 11px;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button,
+.delete-button {
+  background: transparent;
+  border: none;
+  padding: 7px;
+  border-radius: 7px;
+  display: flex;
+  transition: 0.2s;
+}
+
+.edit-button {
+  color: #6558e8;
+}
+
+.edit-button:hover {
+  background: #efedff;
+}
+
+.delete-button {
+  color: #e16d76;
+}
+
+.delete-button:hover {
+  background: #fff0f0;
+}
